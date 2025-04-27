@@ -13,29 +13,138 @@
   body {
     background-color: #393E46;
   }
-  
+      
   h1 {
-    margin: 30px;
+    margin: 25px;
     font-family: 'Lobster', cursive;
     text-shadow: 5px 0 #232931;
-    font-size: 8rem;
+    font-size: 4.1rem;
     color: #4ECCA3;
   }
   
   p {
-    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
     color: #4ECCA3;
     font-family: 'Indie Flower', cursive;
   }
   
   img {
-    width: 80%;
+    width: 65%;
+  }
+
+  .butt{
+    padding: 0.4rem;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    width: 25%;
+    border: none;
+    background-color: #fff;
+    color:#000;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+  }
+  .butt:hover{
+   color: #4ECCA3;
+   transform: scale(1.1);
+   
   }
   
   footer {
-    margin-top: 5%;
+    margin-top: 3%;
     color: #EEEEEE;
     text-align: center;
     font-family: 'Indie Flower', cursive;
   
   }
+
+   @media screen and (max-width: 670px){ 
+
+    h1 {
+      font-size: 7rem;
+      margin-top: 4rem;  
+    }
+  
+    p {
+      margin-top: 2rem;
+      font-size: 2.2rem;  
+    }
+  
+    .butt {
+      width: 50%; 
+      font-size: 1.2rem;
+      margin-top: 1.1rem;
+    }
+  
+    img {
+      width: 80%;
+      
+    }
+  
+    .container {
+      width: 95%;
+      margin-top: 4.1rem;
+
+   
+
+      
+    
+    }
+  
+    footer {
+      font-size: 4rem;
+      margin-top: 40%;
+    }
+  }
+  
+   
+  @media screen and (min-width: 671px) and (max-width: 1024px) {
+
+    h1 {
+      text-align: center;
+      font-size: 2.4rem;
+     
+     
+    }
+  
+     p {
+       /* margin-top: 1rem;  */
+      font-size: 2.3rem; 
+    }
+  
+    .butt {
+      
+       font-size: 1.2rem; 
+       width: 80%;
+       /* text-overflow: hidden; */
+
+ 
+    }
+    .dice {
+      text-align: center;
+      display: inline-block;
+      margin-right: 40px;
+    
+    }
+    img {
+      width: 100%;
+       /* margin-top: 2.1rem;   */
+    }
+  
+    .container {
+      width: 90%;
+      margin: auto;
+    
+      
+  
+    }
+  
+    footer {
+      font-size: 1rem;
+       margin-top: 25%; 
+    }
+  
+}   
+
+
